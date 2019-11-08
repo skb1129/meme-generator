@@ -44,10 +44,12 @@ class DocxIngestor(IngestorInterface):
 class PDFIngestor(IngestorInterface):
     @classmethod
     def parse(cls, path):
-        text_file = '.pdf_to_text_temp.txt'
+        text_file = '.tmp/pdf_to_text.txt'
         cmd = f"pdftotext -layout -nopgbrk {path} {text_file}"
         subprocess.call(cmd, shell=True, stderr=subprocess.STDOUT)
-        return TextIngestor.parse(text_file)
+        quotes = TextIngestor.parse(text_file)
+        os.remove(text_file)
+        return quotes
 
 
 class CSVIngestor(IngestorInterface):
@@ -73,3 +75,6 @@ class Ingestor(IngestorInterface):
             return PDFIngestor.parse(path)
         if file_extension == extensions.get("CSV"):
             return CSVIngestor.parse(path)
+
+
+print(Ingestor.parse('./_data/DogQuotes/DogQuotesPDF.pdf'))
