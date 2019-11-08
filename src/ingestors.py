@@ -4,6 +4,8 @@ import subprocess
 import pandas as pd
 from docx import Document
 
+from .models import QuoteModel
+
 extensions = {
     "TEXT": ".txt",
     "CSV": ".csv",
@@ -26,9 +28,9 @@ class TextIngestor(IngestorInterface):
     @classmethod
     def parse(cls, path):
         file = open(path, "r", encoding="utf-8-sig")
-        quotes = [quote.rstrip("\n") for quote in file.readlines()]
+        lines = file.readlines()
         file.close()
-        return quotes
+        return [QuoteModel(*quote.rstrip("\n").split(" - ")) for quote in lines]
 
 
 class DocxIngestor(IngestorInterface):
@@ -37,7 +39,8 @@ class DocxIngestor(IngestorInterface):
         document = Document(path)
         quotes = []
         for paragraph in document.paragraphs:
-            quotes.append(paragraph.text)
+            paragraph.text and quotes.append(
+                QuoteModel(*paragraph.text.split(" - ")))
         return quotes
 
 
@@ -56,9 +59,7 @@ class CSVIngestor(IngestorInterface):
     @classmethod
     def parse(cls, path):
         csv = pd.read_csv(path)
-        quotes = [f"""{row.get("body", "")} - {row.get("author", "")}"""
-                  for index, row in csv.iterrows()]
-        return quotes
+        return [QuoteModel(**row) for index, row in csv.iterrows()]
 
 
 class Ingestor(IngestorInterface):
@@ -77,4 +78,10 @@ class Ingestor(IngestorInterface):
             return CSVIngestor.parse(path)
 
 
-print(Ingestor.parse('./_data/DogQuotes/DogQuotesPDF.pdf'))
+if __name__ == "__main__":
+    quote_files = ['./_data/DogQuotes/DogQuotesTXT.txt',
+                   './_data/DogQuotes/DogQuotesDOCX.docx',
+                   './_data/DogQuotes/DogQuotesPDF.pdf',
+                   './_data/DogQuotes/DogQuotesCSV.csv']
+    for f in quote_files:
+        print(Ingestor.parse(f))
