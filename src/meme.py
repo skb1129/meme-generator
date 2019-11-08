@@ -9,7 +9,7 @@ from .models import QuoteModel
 def generate_meme(path=None, body=None, author=None):
     """ Generate a meme given an path and a quote """
     if path is None:
-        images_dir = "./_data/photos/dog/"
+        images_dir = "./_data/Photos/Dog/"
         images = []
         for root, dirs, files in os.walk(images_dir):
             images = [os.path.join(root, name) for name in files]

@@ -22,7 +22,7 @@ def setup():
     # quote_files variable
     quotes = None
 
-    images_path = "./_data/photos/dog/"
+    images_path = "./_data/Photos/Dog/"
 
     # TODO: Use the pythons standard library os class to find all
     # images within the images images_path directory
