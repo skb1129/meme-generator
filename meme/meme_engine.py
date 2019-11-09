@@ -18,9 +18,9 @@ class MemeEngine:
         img = Image.open(img_path)
         outfile = os.path.join(self.output_dir, f"temp-{self.count}.jpg")
         self.count += 1
-        real_height, real_width = img.size
+        real_width, real_height = img.size
         height = int(real_height * width / real_width)
-        img.thumbnail((height, width))
+        img.thumbnail((width, height))
 
         # Select font-family, font-size, color and position to draw text
         font1 = ImageFont.truetype("./_data/Fonts/Roboto-Bold.ttf", 22)
