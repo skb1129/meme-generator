@@ -30,7 +30,10 @@ def setup():
                    "./_data/DogQuotes/DogQuotesCSV.csv"]
     all_quotes = []
     for f in quote_files:
-        all_quotes.extend(Ingestor.parse(f))
+        try:
+            all_quotes.extend(Ingestor.parse(f))
+        except ValueError as error:
+            print(f"ValueError: {error}")
 
     images_path = "./_data/Photos/Dog/"
     all_images = []

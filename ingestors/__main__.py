@@ -6,4 +6,7 @@ quote_files = ['./_data/DogQuotes/DogQuotesTXT.txt',
                './_data/DogQuotes/DogQuotesCSV.csv']
 
 for f in quote_files:
-    print(Ingestor.parse(f))
+    try:
+        print(Ingestor.parse(f))
+    except ValueError as error:
+        print(f"ValueError: {error}")
