@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1fd9eaf-9657-4833-ac59-28372c5ffd28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ingestors/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingestors/csv_ingestor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingestors/docx_ingestor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingestors/ingestor_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingestors/pdf_ingestor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingestors/text_ingestor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meme/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meme/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/quote_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/DogQuotes/DogQuotesCSV.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_data/DogQuotes/DogQuotesCSV.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/DogQuotes/DogQuotesDOCX.docx" beforeDir="false" afterPath="$PROJECT_DIR$/_data/DogQuotes/DogQuotesDOCX.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/DogQuotes/DogQuotesPDF.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_data/DogQuotes/DogQuotesPDF.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/DogQuotes/DogQuotesTXT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_data/DogQuotes/DogQuotesTXT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/Fonts/Roboto-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/_data/Fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/Fonts/Roboto-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/_data/Fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/Photos/Dog/xander_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_data/Photos/Dog/xander_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/Photos/Dog/xander_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_data/Photos/Dog/xander_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/Photos/Dog/xander_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_data/Photos/Dog/xander_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/Photos/Dog/xander_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_data/Photos/Dog/xander_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/SimpleLines/SimpleLines.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_data/SimpleLines/SimpleLines.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/SimpleLines/SimpleLines.docx" beforeDir="false" afterPath="$PROJECT_DIR$/_data/SimpleLines/SimpleLines.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/SimpleLines/SimpleLines.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_data/SimpleLines/SimpleLines.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/SimpleLines/SimpleLines.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_data/SimpleLines/SimpleLines.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ingestors.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingestors/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/meme.py" beforeDir="false" afterPath="$PROJECT_DIR$/meme/meme_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/meme_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/meme/meme_engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/meme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/meme_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/meme_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingestors/pdf_ingestor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingestors/pdf_ingestor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meme/meme_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/meme/meme_engine.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="21">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -94,11 +64,11 @@
         <option value="$PROJECT_DIR$/ingestors/__init__.py" />
         <option value="$PROJECT_DIR$/meme/meme.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/ingestors/pdf_ingestor.py" />
-        <option value="$PROJECT_DIR$/meme/meme_engine.py" />
         <option value="$PROJECT_DIR$/meme/meme_generator.py" />
         <option value="$PROJECT_DIR$/meme/__init__.py" />
         <option value="$PROJECT_DIR$/meme/__main__.py" />
+        <option value="$PROJECT_DIR$/meme/meme_engine.py" />
+        <option value="$PROJECT_DIR$/ingestors/pdf_ingestor.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -176,7 +146,7 @@
       <updated>1573190224638</updated>
       <workItem from="1573190239306" duration="11807000" />
       <workItem from="1573247086823" duration="6109000" />
-      <workItem from="1573278481948" duration="2178000" />
+      <workItem from="1573278481948" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="complete ingestors and quote model">
       <created>1573247513296</created>
@@ -206,11 +176,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573278268783</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modularisation of ingestors, meme, models">
+      <created>1573293442091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573293442092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20094000" />
+    <option name="totallyTimeSpent" value="20499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -225,7 +202,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,10 +213,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909784" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.5527319" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.5527319" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.42185515" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.42185515" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32909784" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -256,7 +233,8 @@
     <MESSAGE value="complete meme engine" />
     <MESSAGE value="update directory names" />
     <MESSAGE value="command line arguments for meme generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="command line arguments for meme generator" />
+    <MESSAGE value="modularisation of ingestors, meme, models" />
+    <option name="LAST_COMMIT_MESSAGE" value="modularisation of ingestors, meme, models" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_data/Photos/Dog/xander_2.jpg">
@@ -395,36 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/temp.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meme/meme_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meme/meme_engine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meme/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -482,16 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ingestors/pdf_ingestor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ingestors/text_ingestor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -502,10 +440,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/temp.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingestors/pdf_ingestor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meme/meme_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meme/meme_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="21">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>

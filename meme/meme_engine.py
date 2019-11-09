@@ -7,6 +7,8 @@ from PIL import Image, ImageFont, ImageDraw
 class MemeEngine:
     def __init__(self, output_dir):
         self.output_dir = output_dir
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
 
     def make_meme(self, img_path, text, author, width=500):
         img = Image.open(img_path)
