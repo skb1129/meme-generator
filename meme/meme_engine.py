@@ -31,9 +31,3 @@ class MemeEngine:
 
         img.save(outfile, "JPEG")
         return outfile
-
-
-if __name__ == "__main__":
-    meme = MemeEngine("./.tmp/")
-    meme.make_meme("./_data/Photos/Dog/xander_1.jpg",
-                   "Trust me! I am ready to code", "Xander", 400)
