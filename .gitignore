@@ -11,3 +11,7 @@ venv/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# IntelliJ
+
+.idea
