@@ -1,6 +1,9 @@
 tmp/
 static/
 venv/
+.vscode/
+__pycache__/
+test.db
 
 # OS generated files #
 ######################
@@ -13,5 +16,4 @@ ehthumbs.db
 Thumbs.db
 
 # IntelliJ
-
-.idea
+.idea/
