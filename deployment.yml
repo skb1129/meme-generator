@@ -19,3 +19,9 @@ spec:
           image: suryakantbansal/meme-generator:latest
           ports:
             - containerPort: 8000
+          livenessProbe:
+            httpGet:
+              port: 8000
+              path: /health
+            initialDelaySeconds: 60
+            periodSeconds: 60
