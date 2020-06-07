@@ -3,10 +3,12 @@ kind: Service
 metadata:
   name: meme-generator
   labels:
-    run: meme-generator
+    app: meme-generator
 spec:
+  type: NodePort
   ports:
     - port: 8000
-      protocol: TCP
+      targetPort: 8000
+      nodePort: 30001
   selector:
-    run: meme-generator
+    app: meme-generator
