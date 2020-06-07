@@ -45,6 +45,11 @@ def setup():
 quotes, images = setup()
 
 
+@app.route("/health")
+def health_check():
+    """Simple application health check API"""
+    return "Healthy", 200
+
 @app.route("/")
 def meme_rand():
     """ Generate a random meme """

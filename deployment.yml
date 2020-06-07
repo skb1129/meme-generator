@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: meme-generator
+  labels:
+    app: meme-generator
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: meme-generator
+  template:
+    metadata:
+      labels:
+        app: meme-generator
+    spec:
+      containers:
+        - name: meme-generator
+          image: suryakantbansal/meme-generator:latest
+          ports:
+            - containerPort: 8000
+          livenessProbe:
+            httpGet:
+              port: 8000
+              path: /health
+            initialDelaySeconds: 60
+            periodSeconds: 60

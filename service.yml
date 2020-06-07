@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: meme-generator
+  labels:
+    app: meme-generator
+spec:
+  type: NodePort
+  ports:
+    - port: 8000
+      targetPort: 8000
+      nodePort: 30001
+  selector:
+    app: meme-generator
