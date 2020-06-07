@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: meme-generator
+  labels:
+    run: meme-generator
+spec:
+  ports:
+    - port: 8000
+      protocol: TCP
+  selector:
+    run: meme-generator
